@@ -5,7 +5,7 @@ A real-time traffic light simulation running on an STM32F4 Discovery board using
 ---
  
 ## Overhead View of Circuit
-<![Circuit](images/overhead_view_circuit.png) -->
+[Circuit](images/overhead_view_circuit.png)
 
  
 ## System Overview Diagram
