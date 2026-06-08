@@ -5,11 +5,11 @@ A real-time traffic light simulation running on an STM32F4 Discovery board using
 ---
  
 ## Overhead View of Circuit
-<img src="images/overhead_view_circuit.png" width="300">
+<img src="images/overhead_view_circuit.png" width="400">
 
  
 ## System Overview Diagram
-<img src="images/system_overview_diagram.png" width="300">
+<img src="images/system_overview_diagram.png" width="600">
 
 ## FreeRTOS Tasks
  
