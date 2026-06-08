@@ -4,10 +4,15 @@ A real-time traffic light simulation running on an STM32F4 Discovery board using
  
 ---
  
-## Circuit
-<![Circuit Diagram](images/circuit.jpg) -->
+## Overhead View of Circuit
+<![Circuit](images/overhead_view_circuit.png) -->
+
  
-## System Overview
+## System Overview Diagram
+
+<![System Overview Diagram](images/system_overview_diagram.png) -->
+
+## FreeRTOS Tasks
  
 Four FreeRTOS tasks work together:
  
@@ -15,5 +20,7 @@ Four FreeRTOS tasks work together:
 - **Traffic Generator** — uses the flow percentage as a probability to randomly spawn incoming cars
 - **Traffic Light State** — cycles through green → yellow → red using a one-shot software timer; green/red durations scale with the flow rate (yellow is always 3s fixed)
 - **System Display** — drives the traffic light LEDs and shifts car positions through the shift register each tick; cars queue up and compress before a red light, and clear through on green
+
+
 
 
